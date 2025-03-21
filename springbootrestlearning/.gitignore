@@ -1,0 +1,81 @@
+# Arquivos compilados
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Logs e relatórios de erro
+*.log
+hs_err_pid*
+replay_pid*
+
+# Diretórios de build
+/target/
+/bin/
+/build/
+
+# Dependências geradas pelo Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Dependências geradas pelo Gradle
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+/out/
+
+# Arquivos de configuração do Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+.loadpath
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Arquivos de configuração do NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Arquivos de configuração do VS Code
+.vscode/
+*.code-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Chaves SSH e credenciais sensíveis
+*.pem
+*.ppk
+
+# Node.js (caso use algum frontend junto)
+node_modules/
+
